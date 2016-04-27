@@ -5,7 +5,11 @@ It is created with help from
 [Jernej Virag](https://www.virag.si/2015/01/publishing-gradle-android-library-to-jcenter/) and 
 [nuuneoi](https://inthecheesefactory.com/blog/how-to-upload-library-to-jcenter-maven-central-as-dependency/en) blogs.
 
-Code below is example of usage, you only need to change extra properties inside **exc {...}** and set credentials inside **gradle.properties** or **local.properties** file
+
+*This plugin is tested with* **Gradle/Gradle Wrapper > 2.10** *and* **Gradle Build Tools 2.1.0**
+
+
+Code below is example of usage, you only need to change extra properties inside **exc {...}** and set credentials inside **gradle.properties** or **local.properties** files:
 
 **gradle.properties** or **local.properties** file inside your root folder
 
